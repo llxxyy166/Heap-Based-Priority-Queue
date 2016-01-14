@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		390A0D181BC73AF700C711E4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 390A0D171BC73AF700C711E4 /* main.c */; };
+		390A0D201BC73B1B00C711E4 /* PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 390A0D1E1BC73B1B00C711E4 /* PriorityQueue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		390A0D141BC73AF700C711E4 /* Priorityqueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Priorityqueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		390A0D171BC73AF700C711E4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		390A0D1E1BC73B1B00C711E4 /* PriorityQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PriorityQueue.c; sourceTree = "<group>"; };
+		390A0D1F1BC73B1B00C711E4 /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		390A0D161BC73AF700C711E4 /* Priorityqueue */ = {
 			isa = PBXGroup;
 			children = (
+				390A0D1E1BC73B1B00C711E4 /* PriorityQueue.c */,
+				390A0D1F1BC73B1B00C711E4 /* PriorityQueue.h */,
 				390A0D171BC73AF700C711E4 /* main.c */,
 			);
 			path = Priorityqueue;
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				390A0D181BC73AF700C711E4 /* main.c in Sources */,
+				390A0D201BC73B1B00C711E4 /* PriorityQueue.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +241,7 @@
 				390A0D1D1BC73AF700C711E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
